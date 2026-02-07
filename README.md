@@ -1,16 +1,86 @@
-# React + Vite
+````md
+# Login & Signup UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is created as part of the technical assignment for **OSA HR Solutions Pvt. Ltd.**
 
-Currently, two official plugins are available:
+I built a simple Login and Signup interface using React (Vite) and TailwindCSS with basic form validations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Login page UI  
+- Signup page UI  
+- Email validation  
+- Password validation  
+- Name field validation  
+- Responsive design using TailwindCSS  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js (Vite)
+- Tailwind CSS
+- JavaScript (ES6)
+
+---
+
+#````md
+## How to Run
+
+### 1️⃣ Create React Vite App
+
+```bash
+npm create vite@latest
+npm install
+````
+
+---
+
+### 2️⃣ Install TailwindCSS
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+Add plugin in `@tailwindcss/vite`:
+import tailwindcss from '@tailwindcss/vite'
+    tailwindcss(),
+```
+
+
+Add Tailwind in `index.css`:
+
+```css
+@import "tailwindcss;
+```
+
+---
+
+### 3️⃣ Run Development Server
+
+```bash
+npm run dev
+```
+
+App will run on:
+
+```
+http://localhost:5173
+```
+
+```
+```
+
+
+---
+
+
+## Author
+
+Deepak Kumar Sah
+Full Stack Developer (MERN)
+
+```
+```
